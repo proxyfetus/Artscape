@@ -10,6 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap" rel="stylesheet">
     <script src="app.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".envelope").click(function(){
+          $(".overlay").toggleClass("active");
+        })
+        $(".close").click(function(){
+          $(".overlay").toggleClass("active");
+        })
+      })
+    </script>
 </head>
 <body>
     <h1 style="background-color: bisque;">Artscape</h1>
@@ -38,6 +50,22 @@
           <div class="hover-border"><a href="salman.html"><img src="https://static01.nyt.com/images/2020/12/25/arts/24salman-toor-review-bar/merlin_181583103_9bbaaa18-a3d6-44d5-b32a-f137a17519ce-jumbo.jpg?quality=75&auto=webp"><p>Salman Toor</p></a></div>
           <div class="hover-border"><a href="caofei.html"><img src="https://kadist.org/wp-content/uploads/2016/04/img_la_town-center_plaza-1024x683.jpg"><p>Cao Fei</p></a></div>
           <div class="hover-border"><a href="romauldhazoume.html"><img src="https://supamodu.com/wp-content/uploads/2019/07/ziggy.jpg"><p>Romuald Hazoumè</p></a></div>
+      </div>
+    </div>
+
+    <div class="envelope"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+    <div class="overlay">
+      <div class="newsletter">
+        <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+        <h1>Newsletter</h1>
+        <p>Stay up to date with our latest Art news</p>
+        <div class="subscribe-form">
+            <form>
+              <input type= "email" name= "" placeholder= "Enter Your Email Address">
+              <input type= "submit" name="" value= "Subscribe">
+            </form>
+        </div>
       </div>
     </div>
     
