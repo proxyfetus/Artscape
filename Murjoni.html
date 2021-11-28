@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artscape</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".envelope").click(function(){
+          $(".overlay").toggleClass("active");
+        })
+        $(".close").click(function(){
+          $(".overlay").toggleClass("active");
+        })
+      })
+    </script>
+</head>
+
+<body>
+    <h1 style="background-color: bisque;">Artscape</h1>
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#slideshow">Artists</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Contact</a></li>
+                </li>
+            </ul>
+        </div>
+        </a>
+    </nav>
+
+
+    <header class="main-header">
+        <h1> Murjoni</h1>
+    </header>
+
+
+    <!--*image source URL -->
+
+    <img id="artist-img" src="/Users/pbuakumaurosa/Documents/GitHub/Artscape/Murjoni pics/murjoni main.jpeg" width="350" height="500">
+
+    <br>
+
+
+    <!--inline CSS -->
+    <small> Murjoni and some of her collections </small>
+
+    <br>
+
+    <blockquote> "My pieces are created to take up space and to unapologetically give their own personalities as human beings. Each piece has their own spirit and purpose, just like every human being. They stand tall and proud as a representation of an unforgettable and prominent culture. This gateway of creation uplifts the idea of self-love, confidence and appreciation.
+        "
+        <em>Murjoni on her artwork</em>
+    </blockquote>
+
+    <br>
+
+    <br>
+
+
+    <br>
+
+    <div class="box-3">
+
+        <h3> About the artist</h3>
+
+        <p> Murjoni creates sculpted beings that are based around real people and real experiences. Her work addresses and eliminates stereotypes through clay portraits and video work. With this, she enjoys going against the European standards of “beauty” that are placed upon people of color. (light skin, petite figure,etc.), and normalizing what is natural about black bodies; loving and accepting them as they come. 
+        </p>
+
+        <div class="Artworks">
+            <img src="/Users/pbuakumaurosa/Documents/GitHub/Artscape/Murjoni pics/murjoni 1.jpeg" alt="Murjoni sculpture of woman with braids" width="200" height="300">
+            <img src="/Users/pbuakumaurosa/Documents/GitHub/Artscape/Murjoni pics/murjoni 2.jpeg" alt="Murjoni sculpture of man with grillz" width="200" height="300">
+            <img src="/Users/pbuakumaurosa/Documents/GitHub/Artscape/Murjoni pics/murjoni 3.jpeg" alt="Murjoni sculpture of woman with antena like hair stlye" width="200" height="300">
+        </div>
+
+        <ul>
+            <li> <a href="https://www.instagram.com/mvrjoni/" ;>Instagram</a> </li>
+
+            <li> <a href="https://www.mvrjoni.com/" target="_blank" ;>Mujoni</a> </li>
+
+        </ul>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <br>
+    <hr>
+    <br>
+
+    <div id="main-footer">
+
+        <footer <p>Copyright &copy; 2021, Artscape</p>
+        </footer>
+
+    </div>
+
+    <div class="envelope"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+    <div class="overlay">
+      <div class="newsletter">
+        <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+        <h1>Newsletter</h1>
+        <p>Stay up to date with our latest Art news</p>
+        <div class="subscribe-form">
+            <form>
+              <input type= "email" name= "" placeholder= "Enter Your Email Address">
+              <input type= "submit" name="" value= "Subscribe">
+            </form>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
