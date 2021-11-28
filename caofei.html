@@ -11,6 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap" rel="stylesheet">
     <script src="app.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".envelope").click(function(){
+          $(".overlay").toggleClass("active");
+        })
+        $(".close").click(function(){
+          $(".overlay").toggleClass("active");
+        })
+      })
+    </script>
 </head>
 
 <body>
@@ -132,9 +144,25 @@
 
     <div id="main-footer">
 
-        <footer <p>Copyright &copy; 2021, Artscape</p>
+        <footer> <p>Copyright &copy; 2021, Artscape</p>
         </footer>
 
+    </div>
+
+    <div class="envelope"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+    <div class="overlay">
+      <div class="newsletter">
+        <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+        <h1>Newsletter</h1>
+        <p>Stay up to date with our latest Art news</p>
+        <div class="subscribe-form">
+            <form>
+              <input type= "email" name= "" placeholder= "Enter Your Email Address">
+              <input type= "submit" name="" value= "Subscribe">
+            </form>
+        </div>
+      </div>
     </div>
 
 </body>
