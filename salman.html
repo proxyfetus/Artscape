@@ -41,13 +41,13 @@
         <h1> Salman Toor</h1>
     </header>
 
-    <a href="artist.html">Go to artists</a>
+    
 
 <!--image saved -->
 
     <section class="image">
-        <a href="images/Salman Toor's "Bar Boy" (2019).jpeg">
-        <img src= "images/Salman Toor's "Bar Boy" (2019).jpeg" style="max-width:50%;height:auto;">
+        <a href="images/Salman Toor’s “Bar Boy” (2019).jpeg">
+        <img src= "images/Salman Toor’s “Bar Boy” (2019).jpeg" style="max-width:50%;height:auto;">
         </a>
         <p> Salman Toor "Bar Boy" 2019 
         </p>
@@ -67,7 +67,7 @@
 
 <!--*image source URL -->
 
-<img id="artist-img" src="https://static01.nyt.com/images/2020/12/25/arts/24salman-toor-review-bar/merlin_181583103_9bbaaa18-a3d6-44d5-b32a-f137a17519ce-jumbo.jpg?quality=75&auto=webp" style="max-width:50%;height:auto;">
+<img src="https://static01.nyt.com/images/2020/12/25/arts/24salman-toor-review-bar/merlin_181583103_9bbaaa18-a3d6-44d5-b32a-f137a17519ce-jumbo.jpg?quality=75&auto=webp" style="max-width:50%;height:auto;">
 
 <br>
 
@@ -77,7 +77,7 @@
 
 <br>
 
-        <blockquote> "I like bringing together the freedoms of today to disrupt the old attitudes toward gender and race entrenched in the history of European painting." 
+        <blockquote> "I like bringing together the freedoms of today to disrupt the old attitudes toward gender and race entrenched in the history of European painting.” 
              <em>Salman Toor</em> 
         </blockquote> 
 
@@ -106,7 +106,7 @@
                   945 Madison Avenue
                 New York, NY 10021</td>
 
-              <td></td>
+              <td>Until January 2022</td>
             </tr>
           </table>
     </div>  
@@ -117,11 +117,24 @@
     <div class="box-2">
 
             <h2> In the news</h2>
+
+            <br>
          
-            <blockquote cite=...> 
-             "I like bringing together the freedoms of today to disrupt the old attitudes toward gender and race entrenched in the history of European painting." 
-            <em>Salman Toor</em> 
-             </blockquote> 
+            <p> 
+             "[Toor’s] work seems closer in some ways to, say, Van Gogh’s early paintings" <a href="https://www.nytimes.com/2020/03/11/arts/figuration-salman-toor-christina-qualres.html"target="_blank";>- The New York Times </a> 
+            </p>
+           
+            <br>
+
+            <p>"Salman Toor belongs to a new generation of figurative painters who use their brushstrokes to unravel realities and utopias faced by communities that help them shape their identities."
+              <a href="https://galeriemagazine.com/artist-museum-debut-2020/"target="_blank";>- Galerie </a>
+            </p>
+
+            <br>
+
+            <p> "Salman Toor lives, and paints, between worlds"
+              <a href="https://www.vulture.com/2020/03/salman-toor-whitney-exhibition.html"target="_blank";>- Vulture </a>
+            </p>
     </div>     
        
     <br>
@@ -132,7 +145,11 @@
        
         <p> Born in Lahore, Pakistan in 1983. Based in New York City.
         </p>
-    
+    </div>
+
+    <br>
+
+    <div class="list-links">
          <ul>
              <li> <a href="https://www.instagram.com/salman.toor/"target="_blank";>Instagram</a> </li>
               
@@ -156,32 +173,34 @@
 
         <h4>GET MORE ART IN YOUR INBOX</h4>
           <form action="process.php" method="POST">
-            <div>
+
+            <div class="form-group">
               <label>First Name</label>
               <input type="text" name="firstName">
              </div>
            
            <br>
 
-            <div>
+           <div class="form-group">
                <label>Last Name</label>
                <input type="text" name="lasttName">
             </div>
 
            <br>
-            <div>
+           <div class="form-group">
                 <label>Email address</label>
                 <input type="email" name="Email">
+                
             </div>
 
             <br>
 
-            <div>
+            <div class="form-group">
                 <label>DOB:</label>
                 <input type="date" name="DOB">
             </div>
             <br>
-            <input type="submit" name="submit"
+            <input class="button" type="submit" name="submit"
              value="Submit">
 
            </form>
@@ -189,13 +208,13 @@
     
         <h5>GET MORE ART IN YOUR INBOX 2</h5>
         <form action="process.php" method="POST">
-            <div>
+            <div class="form-group">
               <label>Subscribe</label>
               <input type="text" name="subscribe"
               placeholder="email address">
              </div>
              <br>
-             <input type="submit" name="submit"
+             <input class="button" type="submit" name="submit"
              value="Submit">
 
         </form>  
@@ -204,14 +223,19 @@
     <hr>
     <br>
 
-     <div id="main-footer">
-         
-    <footer
-           <p>Copyright &copy; 2021, Artscape</p> 
+     <div id= main-footer>
+
+    <footer>
+        <p>Copyright &copy; 2021, Artscape</p>
      </footer>
 
      </div>
 
  </body>
       
+
+
+
 </html>
+    
+ 
