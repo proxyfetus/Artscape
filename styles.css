@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.menu-bar,
+.logo {
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #000;
+}
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #323232;
+}
+
+.active,
+.menu-bar ul li:hover {
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+.submenu {
+  display: none;
+}
+.menu-bar,
+ul li:hover .submenu {
+  display: block;
+  position: absolute;
+  background: rgb(224, 224, 224);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu-bar,
+ul li:hover .submenu ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar,
+ul li:hover .submenu ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.nav-links,
+ul li:hover .submenu ul li:last-child {
+  border-bottom: none;
+}
