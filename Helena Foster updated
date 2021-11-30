@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Artscape</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Artscape.css">
+
+<!--link to CSS in CodePen--> 
+
+    <title>Style CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="art web, artists, artscape, contemporary art"
+    <title>HTML Salman Toor</title> 
+    <style type="text/css">
+    #main-footer{
+        text-align:center;
+        font-size: 18px;
+    }
+    </style>  
+</head>
+     
+
+<body>
+    <div class="container">
+
+    <nav class="nav-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artist.html">Artists</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="">Contact</a></li>
+            </li>
+        </ul>
+    </nav>
+     
+    
+    <header class="main-header"> 
+        <h1> Helena Foster</h1>
+    </header>
+
+   <br>
+
+ <!--internal CSS option -->  
+
+        <style type="text/css">
+          p{
+            font-size: 14px;
+            font-weight: bold;
+          }
+        </style>
+
+    </section>
+
+
+<!--*image source URL -->
+
+<img src="https://cdn.sanity.io/images/hdzhiyoo/production/24664a4c1bbbde92f72b37cb26c0f64f94f74441-2246x3141.jpg?fm=jpg" style="max-width:50%;height:auto;">
+
+<br>
+
+
+<!--inline CSS -->
+<small> Helena Foster "New Moon" <em>2019</em></small>
+
+<br>
+
+        <blockquote> "The Igbo’s believe that art, religion, everything, the whole of life are embodied in the art of the masquerade.
+            It is dynamic. It is not allowed to remain stationary."
+             <p>Chinua Achebe, <em>There Was A Country</em></p> 
+        </blockquote> 
+
+        <br>
+    
+    <section class="video">
+         <iframe width="420" height="315"
+         src="https://www.youtube.com/embed/3LotJPZduBE?autoplay=1&mute=1">
+         </iframe>
+     </section>
+
+    <br>
+
+    <div class="box-1">
+
+         <table>
+            <tr>
+              <th>Exhibition</th>
+              <th>Location</th>
+              <th>Dates</th>
+            </tr>
+            <tr>
+              <td> <em>ART X Lagos 2021</em></td>
+
+              <td>SEPTIEME Gallery
+                 Federal Palace Hotel
+                 6-8 Ahmadu Bello Way, Lagos</td>
+
+              <td>Until November 2021</td>
+            </tr>
+          </table>
+    </div>  
+          
+         <br>
+
+
+    <div class="box-2">
+
+            <h2> In the news</h2>
+
+            <br>
+         
+            <p> 
+             "The paintings and drawings, the colours – very fascinating" <a href="https://www.theafricareport.com/143880/art-x-lagos-is-raising-the-bar-for-african-art-and-culture/"target="_blank";>- The Africa Report </a> 
+            </p>
+           
+            <br>
+
+            <p>"ART X Lagos was launched as a dynamic platform to showcase and support the breadth of contemporary art from Africa and its diaspora"
+              <a href="https://www.artsy.net/fair/art-x-lagos-2021"target="_blank";>- ART X LAGOS 2021 </a>
+            </p>
+
+            <br>
+
+        
+    </div>     
+       
+    <br>
+
+    <div class="box-3">
+
+            <h3> About the artist</h3>
+       
+        <p> Helena Foster, (b.1988 Benin City, Nigeria) is an artist that lives and works in London. Foster's paintings seek to capture the day-to-day conflicts and complexities that engulf every household. Working with photography as her starting point, her works are largely direct studies from Nollywood cinema, where she freeze-frames films and paints the characters, giving them new meaning in the context of painting.
+        </p>
+    </div>
+
+    <br>
+
+    <div class="list-links">
+         <ul>
+             <li> <a href="https://www.instagram.com/helenachino/"target="_blank";>Instagram</a> </li>
+              
+             <li> <a href="https://helenafoster.com/"target="_blank";>Helena Foster</a> </li>
+
+             <li> <a href="https://gertrude.com/artists/helena-foster"target="_blank";>Gertrude Artists</a> </li>
+       
+             <li> <a href="https://www.artsy.net/artist/helena-foster-1"target="_blank";>Artsy profile</a> </li>
+         </ul> 
+    </div> 
+
+    <br>
+    <hr>
+    <br>
+
+
+    <div class="form">
+
+        <h4>GET MORE ART IN YOUR INBOX</h4>
+          <form action="process.php" method="POST">
+
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" name="firstName">
+             </div>
+           
+           <br>
+
+           <div class="form-group">
+               <label>Last Name</label>
+               <input type="text" name="lasttName">
+            </div>
+
+           <br>
+           <div class="form-group">
+                <label>Email address</label>
+                <input type="email" name="Email">
+                
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label>DOB:</label>
+                <input type="date" name="DOB">
+            </div>
+            <br>
+            <input class="button" type="submit" name="submit"
+             value="Submit">
+
+           </form>
+       
+    
+        <h5>GET MORE ART IN YOUR INBOX 2</h5>
+        <form action="process.php" method="POST">
+            <div class="form-group">
+              <label>Subscribe</label>
+              <input type="text" name="subscribe"
+              placeholder="email address">
+             </div>
+             <br>
+             <input class="button" type="submit" name="submit"
+             value="Submit">
+
+        </form>  
+    </div>       
+    <br>
+    <hr>
+    <br>
+
+     <div id= main-footer>
+
+    <footer>
+        <p>Copyright &copy; 2021, Artscape</p>
+     </footer>
+
+     </div>
+
+ </body>
+      
+
+
+
+</html>
+    
