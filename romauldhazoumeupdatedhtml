@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artscape</title>
+    <link rel="stylesheet" href="romauld.css">
+</head>
+
+<body> 
+   <div class="section1">
+
+    <article>
+        <h1>ROMUALD HAZOUMÈ</h1>
+        
+        <div class="p1">
+            <p>
+                Romuald Hazoumè’s body of work primarily encompasses sculpture, but also painting, video and photography. His work is included in public
+                collections including The British Museum, London; Musée Barbier-Mueller, Geneva Fondation Zinsou,
+                Cotonou, Benin;
+                Queensland Art Gallery | Gallery of Modern Art (QAGOMA), Brisbane; Museumslandschaft Hessen Kassel, Neue
+                Galerie,
+                Germany; and The Walther Collection, Neu-Ulm, Germany.
+                <br>
+                <br>
+                Romuald Hazoumè’s most recognizable, widely available works are striking and very effective. He takes the jerrycans that are a staple of contemporary existence in Africa, and fashions sculptures that resemble traditional tribal masks out of them. 
+                The masks are a tongue-in-cheek reflection on the history of Africa in objects, a blend of that which lasts and that which pollutes, of the beautiful native arts and the omnipresent Western hand me downs. 
+            </p>
+        </div>
+    </article>
+   </div> 
+            
+                <br>
+                <br>
+                <h2>Selected works</h2>
+                <br>
+                <div class="artworks">
+                    <img src="https://supamodu.com/wp-content/uploads/2019/07/ziggy.jpg" alt="ziggy 2015" width="300" height="300">
+                    <figcaption><em>ziggy 2015</em></figcaption>
+                    
+                    <img src="https://supamodu.com/wp-content/uploads/2019/07/44A1742-600x693.webp" alt="Romanella 2018" width="300" height="300">
+                    <figcaption><em>Romanella 2018</em></figcaption>
+                    <img src="https://d5wt70d4gnm1t.cloudfront.net/media/a-s/artworks/romuald-hazoume/21901-603930238427/romuald-hazoume-blue-oil-head-960x640.jpg" alt="Blue Oil Head" width="300" height="300">
+                    <figcaption><em>Blue oil head</em></figcaption>
+
+                    <img src="https://sculpturemagazine.art/wp-content/uploads/2019/04/4-HAZOU-Cocotamba.jpg" alt="Cocotamba, 2017." width="300" height="300">
+                    <figcaption><em>Cocotamba</em></figcaption>
+
+                    <img src="https://octobergallery.co.uk/website_safezone/images/artworks/enlargements/RH011.jpg" alt="Kawessi, 2013." width="300" height="300">
+                    <figcaption><em>Kawessi 2013</em></figcaption>
+
+                    <img src="https://octobergallery.co.uk/website_safezone/images/artworks/thumbs/RH264.jpg" alt="Bye Bye, 2009." width="300" height="300">
+                    <figcaption><em>Bye Bye 2009</em></figcaption>
+
+                    <img src="https://octobergallery.co.uk/website_safezone/images/artworks/enlargements/RH095.jpg" alt="Aquarus, 2018." width="300" height="300">
+                    <figcaption><em>Aquarus 2018</em></figcaption>
+
+                    <img src="https://octobergallery.co.uk/website_safezone/images/artworks/enlargements/RH323.jpg" alt="Kesuyu, 2019" width="300" height="300">
+                    <figcaption><em>Kesuyu 2019</em></figcaption>
+                    <br>
+                    <br>
+
+
+                </div>
+            
+            <div class="Exibitions">
+                <h2>Exibitions</h2>
+                <p>
+                    <ul>
+                        <li>
+Romuald Hazoumè, Magin-A, Paris, France - 2021
+                        </li>
+                        <br>
+                        <li>Frieze New York, Online with October Gallery, London, UK - 2021</li>
+                        <br>
+                        <li>Portable Sculpture, Henry Moore Foundation, Leeds, UK - 2021</li>
+                        <br>
+                        <li>Expression(s) décoloniale(s) #2,Chateau des Duc de Bretagne, Musee d’Histoire de Nantes, Nantes, France - 2021</li>
+                        <br>
+                        <li>Oil: Beauty And Horror In The Petrol Age, KUNSTMUSEUM WOLFSBURG - 2022</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="artist">
+                <br>
+                <br>
+                <br>
+                <hr>
+                <h3>About the Artist</h3>
+                <br>
+                <br>
+                <p>
+<em>Romuald Hazoumè</em> was born in 1962 in Porto Novo, Benin, where he lives and works.
+<br>
+<br>
+<h5>Awards and Prizes</h5>
+<br>
+<br>
+  
+ <ul>
+     <li>2009 3rd Moscow Biennale of Contemporary Art, Moscow</li>
+     <li>2007 Arnold-Bode-Preis,
+    documenta 12, Kassel</li>
+    <li>1996 George-Maciunas-Preis, Wiesbaden</li>
+ </ul>
+<figure><img src="https://caacart.com/artwork/g-portrait-Hazoume-Romuald-05.jpg" alt="ROMUALD HAZOUMÈ"> <FIgcaption>Romuald Hazoumè <br>
+© Jonathan Greet 2017</FIgcaption></figure>
+<br>
+<br>
+<nav>
+    <a href="https://twitter.com/?lang=en">twitter</a>
+    <a href="https://www.instagram.com/">instagram</a>
+    <a href="https://www.facebook.com">facebook</a>
+    <a href="https://www.youtube.com">youtube</a>
+</nav>
+<p>Subscribe for updates on trends, artists, exclusive sales, and more!</p>
+<form action="process.php" method="POST">
+    <div>
+        <label>Subscribe</label>
+        <input type="text" name="subscribe" placeholder="email address">
+    </div>
+    <br>
+    <input type="submit" name="submit" value="Submit">
+
+</form>
+
+
+                </p>
+            </div>
+            
+            <div id="main-footer">
+            
+                <footer <p>Copyright &copy; 2021, Artscape</p>
+                </footer>
+            
+            </div>
+</body>
+</html>
