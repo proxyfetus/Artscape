@@ -15,16 +15,33 @@
 
 <body>
     <h1 style="background-color: bisque;">Artscape</h1>
-    <nav>
-        <div class="nav-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#slideshow">Artists</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                </li>
-            </ul>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item"><a href="index.html">Home</a></li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Artists
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="salman.html">Salman Toor</a></li>
+                <li><a class="dropdown-item" href="caofei.html">Cao Fei</a></li>
+                <li><a class="dropdown-item" href="romualdhazoume.html">Romuald Hazoume</a></li>
+                <li><a class="dropdown-item" href="helenafoster.html">Helena Foster</a></li>
+                <li><a class="dropdown-item" href="Murjoni.html">Murjoni</a></li>
+                <li><a class="dropdown-item" href="nielscorfitzen.html">Niels Corfitzen</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-        </a>
+      </div>
     </nav>
 
 
