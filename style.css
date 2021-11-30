@@ -5,6 +5,126 @@
     background-color: bisque;
 }
 
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+/*titles*/
+
+.main-header{
+    color: black;
+    ont:normal 16px Cinzel Decorative, Verdana, sans-serif;
+    line-height:1.6em;
+}
+
+
+/*Image artist.html*/
+
+.image{
+    float.left
+}
+
+/* Video artist.html*/
+
+.video{
+}
+
+
+/*Exhibition box artist.html*/
+
+.box-1{ 
+    background-color: beige;
+    border:1px black solid;
+    padding:10px;
+    margin:20px;
+}
+
+
+/*In the news artist.html*/
+
+.box-2{
+}
+
+
+/*About the artist.html*/
+
+.box-3{
+    
+}
+
+
+
+.button:hover{
+    background: #000;
+    color:white;
+}
+
+.button{
+    background-color: white;
+    padding:10px 15px;
+}
+
+
+body{
+    background-color: beige;
+    font-family:'Cinzel decorative', Verdana, sans-serif;
+    font: size 16px;
+    font-weight:normal;
+
+    /*Same as above*/
+
+    font:normal 16px Cinzel Decorative, Verdana, sans-serif;
+    line-height:1.6em;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.form{
+    padding:20px;
+}
+
+.form.form-group{
+    padding-bottom: 15px;
+}
+
+.form label{
+    display:block;
+}
+
+.form input{
+    padding:8px;
+    width:30%;
+}
+
+
+
+
+.list-links ul{
+    font:20px'Frank Ruhl Libre', serif;
+    list-style: none;
+    text-align:left;
+    text-indent: 2%;
+    line-height:1.3em;
+}
+
+.list-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.list-links ul li:hover::after{
+    width: 100%;
+} 
+
 h1 {
     text-align: left;
     text-indent: 5%;
@@ -239,4 +359,10 @@ background: bisque;
 .subscribe-form input[type= "submit"] :hover
 {
     background: rgb(248, 142, 160);
+}
+
+
+/*responsive tag */
+@media only screen and (max-width:100) {.responsive 
+    {width: 100;}
 }
