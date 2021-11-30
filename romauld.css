@@ -1,0 +1,26 @@
+h1 {
+  color: black;
+  margin: 10px;
+  padding-top: 0.1em;
+  font-size: 35px;
+  line-height: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+h2 {
+  margin: 10px;
+  padding: 0.1em;
+  text-align: center;
+}
+
+.artworks {
+  display: flexbox;
+  column-count: 4;
+}
+#main-footer {
+  text-align: center;
+  font-size: 18px;
+}
