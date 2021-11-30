@@ -84,6 +84,9 @@ body{
     margin:auto;
 }
 
+
+/* Subs forms artist.html*/
+
 .form{
     padding:20px;
 }
@@ -102,6 +105,8 @@ body{
 }
 
 
+
+/*Links to IG, webs artist.html*/
 
 
 .list-links ul{
@@ -124,6 +129,9 @@ body{
 .list-links ul li:hover::after{
     width: 100%;
 } 
+
+
+
 
 h1 {
     text-align: left;
@@ -210,6 +218,8 @@ nav {
     height: 100%;
     object-fit: cover;
 }
+
+
 
 /*newsletter sign up */
 body
